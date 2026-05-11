@@ -1,6 +1,8 @@
 <?php
 
-require_once __DIR__ . '/../Models/PostModel.php';
+namespace App\Controllers;
+
+use App\Models\PostModel;
 
 class BlogController {
     public function index(): void {
